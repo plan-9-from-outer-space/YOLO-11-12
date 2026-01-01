@@ -1,0 +1,29 @@
+Links:
+
+* https://github.com/ultralytics/ultralytics
+* https://www.ultralytics.com/
+* https://github.com/MuhammadMoinFaisal?tab=repositories
+* https://youtube.com/shorts/Mgb7WwACehE	- shows AI catching red light runner
+* https://www.youtube.com/@freedomtech5307/shorts (YOLO app videos)
+* https://www.youtube.com/watch?v=neBZ6huolkg (great video, change to use US football)
+
+* https://docs.ultralytics.com/usage/cfg/#predict-settings
+* https://universe.roboflow.com/project-uyrxf/ppe_detection-v1x3l/dataset/2
+* https://docs.ultralytics.com/datasets/detect/visdrone/
+
+C:\Users\Bob\AppData\Roaming\Ultralytics\settings.json
+
+.venv\Scripts\activate
+
+# How to download a YOLO model
+from ultralytics import YOLO
+model = YOLO("yolov8n.pt")
+
+Apps:
+
+* catching red light runners
+* detecting fires at gas stations
+* 
+
+----------------------------------------
+

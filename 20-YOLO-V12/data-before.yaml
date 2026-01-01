@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Dust Mask', 'Eye Wear', 'Glove', 'Protective Boots', 'Protective Helmet', 'Safety Vest', 'Shield']
+
+roboflow:
+  workspace: project-uyrxf
+  project: ppe_detection-v1x3l
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-uyrxf/ppe_detection-v1x3l/dataset/2

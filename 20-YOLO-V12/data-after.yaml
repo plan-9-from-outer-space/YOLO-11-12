@@ -1,0 +1,12 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Dust Mask', 'Eye Wear', 'Glove', 'Protective Boots', 'Protective Helmet', 'Safety Vest', 'Shield']
+
+roboflow:
+  workspace: project-uyrxf
+test: ../test/images
+train: ../train/images
+val: ../valid/images

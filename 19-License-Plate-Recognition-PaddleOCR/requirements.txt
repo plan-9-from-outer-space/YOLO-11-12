@@ -1,0 +1,20 @@
+ultralytics
+paddleocr
+
+uv pip install paddlepaddle --index-url https://pypi.org/simple
+import paddle
+paddle.utils.run_check()
+uv add paddleocr (or "uv pip install paddleocr")
+
+# pip install paddlepaddle --index-url https://pypi.org/simple
+# CPU (no GPU)
+# pip install paddlepaddle -i https://pypi.tuna.tsinghua.edu.cn/simple
+# If you're using GPU with CUDA 11.7:
+# pip install paddlepaddle-gpu==2.5.2.post117 -f https://www.paddlepaddle.org.cn/whl/windows/mkl/avx/stable.html
+# For CUDA Version 11.2, change post117 to post112
+
+# Install Microsoft Visual C++ Redistributable
+# Download and install:
+# Visual C++ Redistributable for Visual Studio 2015
+# https://www.microsoft.com/en-us/download/details.aspx?id=48145
+# Paddle requires some DLLs provided by these redistributables.
